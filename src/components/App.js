@@ -1,17 +1,17 @@
 import React, {useState} from 'react';
-import { Space } from 'antd';
+import { Typography, Space } from 'antd';
 import './App.css';
 import Deck from "./Deck";
 import Truck from "./Truck";
 import Wheel from "./Wheel";
 import Result from "./Result";
+import {unitSymbol} from "../helpers/measurements";
 import decks from "../data/decks.json";
 import trucks from "../data/trucks.json";
 import wheels from "../data/wheels.json";
+import Notes from "./Notes";
 
-const unitSymbol = (unit) => (
-    unit === "in" ? '"' : unit
-);
+const { Title } = Typography;
 
 const App = () => {
     const deckOptions = [
@@ -46,6 +46,8 @@ const App = () => {
 
     return (
         <Space direction="vertical">
+            <Title>Freestyle Truck Calculator</Title>
+            <Notes />
             <Deck options={deckOptions} deck={deck} setDeck={setDeck}/>
             <Truck options={truckOptions} truck={truck} setTruck={setTruck}/>
             <Wheel options={wheelOptions} wheel={wheel} setWheel={setWheel}/>

@@ -13,15 +13,10 @@ const calculateHangerWheelsInMetric = (truck, wheel) => {
     return toMillimeter(calculateHangerWheelsInImperial(truck, wheel), "mm")
 };
 
-const Deck = ({deck, truck, wheel}) => {
-    console.log(deck)
-    console.log(truck)
-    console.log(wheel)
-    return (
+const Deck = ({deck, truck, wheel}) => (
         <>
             <Text>The complete width of your trucks and wheels will be {calculateHangerWheelsInMetric(truck, wheel).toFixed(2)}"</Text>
         </>
-    )
-};
+);
 
 export default Deck;
