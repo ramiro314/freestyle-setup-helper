@@ -1,72 +1,30 @@
-# freestyle-setup-helper
+# Freestyle Setup Helper
 
-# Getting Started with Create React App
+## Product Questions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This will help me understand better the requirements for the application. This answers will also serve as an initial point to inform the user how to use the application.
 
-## Available Scripts
+- What should I look out for when choosing deck/trucks/wheels for freestyle?
+- What are the advantages/disadvantages of having narrower/flush/wider wheels+trucks?
+    - What are the ideal offsets for narrower/wider wheels+trucks?
 
-In the project directory, you can run:
+## Implementation Questions
 
-### `yarn start`
+- Are there different type of offset wheels? How are they different?
+- What is the wheel+truck formula for centered wheels?
+    - Any other formula we should consider besides sideset and centered wheels?
+- What is the width of a washer? Are they standardized?
+- Is the width from end of bearing to end of bearing standard? What is the most common width?
+- Do we need to consider squashed nuts?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Roadmap
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Add support for washers.
+- Add formula for centered wheels.
+- Show more useful information on the result.
+  - Current offset and what it would be good for.
+  - Diagram showing current measurements and how they affect the setup.
+- Add educational information to help understand how to use the application.
+- Add a "Desired Offset" option after the user chooses two setup elements. This would filter the options on the remaining element to match the desired offset.
+  - We could also use this to suggest how many washers you'll need.
+- Add more data points (decks, trucks, wheels).
