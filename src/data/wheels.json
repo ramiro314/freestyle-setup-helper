@@ -9,10 +9,70 @@
   },
   {
     "id": 2,
-    "manufacturer": "Test",
-    "name": "Wheel",
-    "width_value": 40,
+    "manufacturer": "Decomposed",
+    "name": "Four Leeches 2.0",
+    "width_value": 35,
     "width_unit": "mm",
     "offset": true
+  },
+  {
+    "id": 3,
+    "manufacturer": "Decomposed",
+    "name": "Mortal Pegasus",
+    "width_value": 36,
+    "width_unit": "mm",
+    "offset": true
+  },
+
+  {
+    "id": 4,
+    "manufacturer": "Decomposed",
+    "name": "Cesspool Bottomfeeder",
+    "width_value": 36,
+    "width_unit": "mm",
+    "offset": true
+  },
+
+  {
+    "id": 5,
+    "manufacturer": "Decomposed",
+    "name": "Grey Matter",
+    "width_value": 35,
+    "width_unit": "mm",
+    "offset": true
+  },
+
+  {
+    "id": 6,
+    "manufacturer": "Decomposed",
+    "name": "Crystal Skull",
+    "width_value": 36,
+    "width_unit": "mm",
+    "offset": true
+  },
+  {
+    "id": 7,
+    "manufacturer": "DOGTOWN",
+    "name": "k-9 80's Street/Freestyle",
+    "width_value": 36,
+    "width_unit": "mm",
+    "offset": true
+  },
+
+  {
+    "id": 8,
+    "manufacturer": "SK8KINGS",
+    "name": "Crown Jewels",
+    "width_value": 37,
+    "width_unit": "mm",
+    "offset": true
+  },
+  {
+    "id": 9,
+    "manufacturer": "SK8KINGS",
+    "name": "King Spinners",
+    "width_value": 36,
+    "width_unit": "mm",
+    "offset": false
   }
 ]
