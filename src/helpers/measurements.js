@@ -1,8 +1,11 @@
+export const INCHES = 'in';
+export const MILLIMETERS = 'mm';
+
 export const toInches = (value, unit) => {
     switch (unit) {
-        case "in":
+        case INCHES:
             return value;
-        case "mm":
+        case MILLIMETERS:
             return value / 25.4;
         default:
             throw new Error(`Unknown unit ${unit}`);
@@ -11,9 +14,9 @@ export const toInches = (value, unit) => {
 
 export const toMillimeter = (value, unit) => {
     switch (unit) {
-        case "in":
+        case INCHES:
             return value * 25.4;
-        case "mm":
+        case MILLIMETERS:
             return value;
         default:
             throw new Error(`Unknown unit ${unit}`);
@@ -21,5 +24,5 @@ export const toMillimeter = (value, unit) => {
 };
 
 export const unitSymbol = (unit) => (
-    unit === "in" ? '"' : unit
+    unit === INCHES ? '"' : unit
 );

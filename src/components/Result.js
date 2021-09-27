@@ -1,6 +1,6 @@
 import React from "react";
 import {Typography} from 'antd';
-import {toInches, toMillimeter} from "../helpers/measurements";
+import {MILLIMETERS, toInches, toMillimeter} from "../helpers/measurements";
 
 const { Text } = Typography;
 
@@ -10,12 +10,13 @@ const calculateHangerWheelsInImperial = (truck, wheel) => {
 };
 
 const calculateHangerWheelsInMetric = (truck, wheel) => {
-    return toMillimeter(calculateHangerWheelsInImperial(truck, wheel), "mm")
+    // Doesn't work?
+    return toMillimeter(calculateHangerWheelsInImperial(truck, wheel), MILLIMETERS)
 };
 
 const Deck = ({deck, truck, wheel}) => (
         <>
-            <Text>The complete width of your trucks and wheels will be {calculateHangerWheelsInMetric(truck, wheel).toFixed(3)}"</Text>
+            <Text>The complete width of your trucks and wheels will be {calculateHangerWheelsInImperial(truck, wheel).toFixed(3)}"</Text>
         </>
 );
 
