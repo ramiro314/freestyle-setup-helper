@@ -8,8 +8,6 @@ const MeasurementInput = ({ defaultValue = 0, defaultUnit = INCHES, onChange = f
 
     const [value, setValue] = useState(defaultValue);
     const [unit, setUnit] = useState(defaultUnit);
-    console.log(unit)
-
 
     const onChangeValue = (v) => {
         setValue(v)
@@ -27,7 +25,6 @@ const MeasurementInput = ({ defaultValue = 0, defaultUnit = INCHES, onChange = f
             <Option value={MILLIMETERS}>mm</Option>
         </Select>
     );
-    console.log("here!")
     return (<InputNumber addonAfter={selectAfter(unit)} defaultValue={value} onChange={onChangeValue} />);
 };
 
