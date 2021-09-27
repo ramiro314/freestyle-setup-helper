@@ -2,12 +2,17 @@ import React from "react";
 import {Form, Select, Space} from 'antd';
 import MeasurementInput from "./MeasurementInput";
 
-
 const Deck = ({options, deck, setDeck = f => f}) => {
 
     const onchangeSelect = (item) => {
         setDeck(options[item]);
     };
+
+    const customImput = (
+        <Form.Item label="Deck Width">
+            <MeasurementInput defaultValue={7.6}/>
+        </Form.Item>
+    )
 
     return (<div className="Deck">
         <Space direction="vertical">
@@ -19,7 +24,7 @@ const Deck = ({options, deck, setDeck = f => f}) => {
                     style={{ width: 250 }}
                 />
             </Form.Item>
-            {deck.value === "0" && <Form.Item label="Deck Width"><MeasurementInput defaultValue={7.6}/></Form.Item>}
+            {deck.value === "0" && customImput}
         </Space>
     </div>);
 };

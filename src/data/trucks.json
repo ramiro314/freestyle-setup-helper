@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "manufacturer": "Ace",
+    "name": "11",
+    "axle_width_value": 7.25,
+    "axle_width_unit": "in",
+    "hanger_width_value": 4.6,
+    "hanger_width_unit": "in"
+  },
+  {
+    "id": 2,
+    "manufacturer": "Ace",
+    "name": "22",
+    "axle_width_value": 7.6,
+    "axle_width_unit": "in",
+    "hanger_width_value": 5,
+    "hanger_width_unit": "in"
+  }
+]
