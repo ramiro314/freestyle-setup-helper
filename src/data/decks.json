@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "manufacturer": "Waltz",
+    "name": "Bixby",
+    "width_value": 7.6,
+    "width_unit": "in"
+  },
+  {
+    "id": 2,
+    "manufacturer": "Test",
+    "name": "Board",
+    "width_value": 200,
+    "width_unit": "mm"
+  }
+]
