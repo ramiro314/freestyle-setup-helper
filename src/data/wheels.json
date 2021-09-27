@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "manufacturer": "Waltz",
+    "name": "Donut",
+    "width_value": 36,
+    "width_unit": "mm",
+    "offset": true
+  },
+  {
+    "id": 2,
+    "manufacturer": "Test",
+    "name": "Wheel",
+    "width_value": 40,
+    "width_unit": "mm",
+    "offset": true
+  }
+]

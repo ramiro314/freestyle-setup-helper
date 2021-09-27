@@ -19,7 +19,7 @@ const Truck = ({options, truck, setTruck = f => f}) => {
         </>
     )
 
-    return (<div className="Deck">
+    return (<div className="Truck">
         <Space direction="vertical">
             <Form.Item label="Truck">
                 <Select
@@ -29,7 +29,7 @@ const Truck = ({options, truck, setTruck = f => f}) => {
                     style={{ width: 250 }}
                 />
             </Form.Item>
-            {truck.value === "0" && customImput}
+            {truck.value === 0 && customImput}
         </Space>
     </div>);
 };

@@ -2,31 +2,30 @@ import React from "react";
 import {Form, Select, Space} from 'antd';
 import MeasurementInput from "./MeasurementInput";
 
-const Deck = ({options, deck, setDeck = f => f}) => {
+const Wheel = ({options, wheel, setWheel = f => f}) => {
 
     const onchangeSelect = (item) => {
-        setDeck(options[item]);
+        setWheel(options[item]);
     };
-
     const customImput = (
-        <Form.Item label="Deck Width">
+        <Form.Item label="Wheel Width">
             <MeasurementInput defaultValue={7.6}/>
         </Form.Item>
     )
 
-    return (<div className="Deck">
+    return (<div className="Wheel">
         <Space direction="vertical">
-            <Form.Item label="Deck">
+            <Form.Item label="Wheel">
                 <Select
-                    value={deck.value}
+                    value={wheel.value}
                     options={options}
                     onSelect={onchangeSelect}
                     style={{ width: 250 }}
                 />
             </Form.Item>
-            {deck.value === 0 && customImput}
+            {wheel.value === 0 && customImput}
         </Space>
     </div>);
 };
 
-export default Deck;
+export default Wheel;
