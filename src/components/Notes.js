@@ -7,6 +7,7 @@ const data = [
     'VERY Alpha version, it\'s full of bugs.',
     'Custom fields do not work yet.',
     'I plan to add washers (including custom ones)',
+    'Right now Deck is not doing anything. Still trying to figure out the best way to use the information.',
     'I would like some kind of diagram to help with visualisation.',
 ];
 
