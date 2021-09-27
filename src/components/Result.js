@@ -15,7 +15,7 @@ const calculateHangerWheelsInMetric = (truck, wheel) => {
 
 const Deck = ({deck, truck, wheel}) => (
         <>
-            <Text>The complete width of your trucks and wheels will be {calculateHangerWheelsInMetric(truck, wheel).toFixed(2)}"</Text>
+            <Text>The complete width of your trucks and wheels will be {calculateHangerWheelsInMetric(truck, wheel).toFixed(3)}"</Text>
         </>
 );
 
