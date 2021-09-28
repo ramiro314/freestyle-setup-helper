@@ -16,5 +16,995 @@
     "axle_width_unit": "in",
     "hanger_width_value": 5,
     "hanger_width_unit": "in"
+  },
+  {
+    "id": 3,
+    "manufacturer": "ACE",
+    "name": "44.0",
+    "axle_width_value": 8.5,
+    "axle_width_unit": "in",
+    "hanger_width_value": 148.0,
+    "hanger_width_unit": "mm"
+  },
+  {
+      "id": 4,
+      "manufacturer": "Ace",
+      "name": "03 Low",
+      "axle_width_value": 8.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 135.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 5,
+      "manufacturer": "Bear",
+      "name": "Grizzly",
+      "axle_width_value": 10.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 181.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 6,
+      "manufacturer": "Bear",
+      "name": "Grizzly flipped hanger",
+      "axle_width_value": 10.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 181.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 7,
+      "manufacturer": "Bear",
+      "name": "Polar Bear 155 alternate holes",
+      "axle_width_value": 8.75,
+      "axle_width_unit": "in",
+      "hanger_width_value": 155.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 8,
+      "manufacturer": "Bear",
+      "name": "Polar Bear 155 normal holes",
+      "axle_width_value": 8.75,
+      "axle_width_unit": "in",
+      "hanger_width_value": 155.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 9,
+      "manufacturer": "Bear",
+      "name": "Polar Bear 180",
+      "axle_width_value": 10.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 180.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 10,
+      "manufacturer": "Bear",
+      "name": "Polar Bear 180",
+      "axle_width_value": 10.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 180.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 11,
+      "manufacturer": "Bear",
+      "name": "Polar Bear with bottom washer",
+      "axle_width_value": 8.75,
+      "axle_width_unit": "in",
+      "hanger_width_value": 155.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 12,
+      "manufacturer": "Bear",
+      "name": "Polar Bear with bottom washer",
+      "axle_width_value": 8.75,
+      "axle_width_unit": "in",
+      "hanger_width_value": 155.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 13,
+      "manufacturer": "Destructo",
+      "name": "5.75 mid w/ hollowpoint kingpins",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 146.5,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 14,
+      "manufacturer": "Destructo",
+      "name": "6.25 mid",
+      "axle_width_value": 9.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 159.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 15,
+      "manufacturer": "Destructo",
+      "name": "D1 5.5",
+      "axle_width_value": 8.25,
+      "axle_width_unit": "in",
+      "hanger_width_value": 140.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 16,
+      "manufacturer": "Destructo",
+      "name": "D2 5.75 mid",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 146.5,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 17,
+      "manufacturer": "Don't Trip",
+      "name": "Trippins 160",
+      "axle_width_value": 8.75,
+      "axle_width_unit": "in",
+      "hanger_width_value": 160.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 18,
+      "manufacturer": "Fury",
+      "name": "Evo 2",
+      "axle_width_value": 7.75,
+      "axle_width_unit": "in",
+      "hanger_width_value": 128.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 19,
+      "manufacturer": "Gullwing",
+      "name": "850 NOS HPG V",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 149.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 20,
+      "manufacturer": "Gullwing",
+      "name": "Grinder 8.375",
+      "axle_width_value": 8.375,
+      "axle_width_unit": "in",
+      "hanger_width_value": 145.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 21,
+      "manufacturer": "Gullwing",
+      "name": "Grinder 9.0",
+      "axle_width_value": 9.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 161.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 22,
+      "manufacturer": "Gullwing",
+      "name": "Shadow DLX 8.0",
+      "axle_width_value": 8.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 137.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 23,
+      "manufacturer": "Gullwing",
+      "name": "Shadow DLX 8.5",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 150.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 24,
+      "manufacturer": "Gullwing",
+      "name": "Shadow DLX 8.5 (1 year later)",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 150.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 25,
+      "manufacturer": "Gullwing",
+      "name": "Shadow DLX 8.5 on Indy baseplates with bones bushings",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 150.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 26,
+      "manufacturer": "Gullwing",
+      "name": "Shadow DLX 8.5 with bones bushings",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 150.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 27,
+      "manufacturer": "Gullwing",
+      "name": "Shadow DLX 9.0",
+      "axle_width_value": 9.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 164.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 28,
+      "manufacturer": "Gullwing",
+      "name": "Sidewinder 1990's model",
+      "axle_width_value": 9.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 159.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 29,
+      "manufacturer": "Independent",
+      "name": "Stage 10 - 109 Silver",
+      "axle_width_value": 6.9,
+      "axle_width_unit": "in",
+      "hanger_width_value": 109.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 30,
+      "manufacturer": "Independent",
+      "name": "Stage 10 - 149 Stage X Forged",
+      "axle_width_value": 8.25,
+      "axle_width_unit": "in",
+      "hanger_width_value": 150.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 31,
+      "manufacturer": "Independent",
+      "name": "Stage 10 - 215 Silver",
+      "axle_width_value": 10.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 187.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 32,
+      "manufacturer": "Independent",
+      "name": "Stage 10 - Mark II 149 standard anodized green",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 149.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 33,
+      "manufacturer": "Independent",
+      "name": "Stage 10 - Mark II 159 standard",
+      "axle_width_value": 8.75,
+      "axle_width_unit": "in",
+      "hanger_width_value": 156.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 34,
+      "manufacturer": "Independent",
+      "name": "Stage 10 - Mark II New 169",
+      "axle_width_value": 9.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 166.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 35,
+      "manufacturer": "Independent",
+      "name": "Stage 11 - 149",
+      "axle_width_value": 8.25,
+      "axle_width_unit": "in",
+      "hanger_width_value": 150.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 36,
+      "manufacturer": "Independent",
+      "name": "Stage 11 - 159",
+      "axle_width_value": 8.75,
+      "axle_width_unit": "in",
+      "hanger_width_value": 156.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 37,
+      "manufacturer": "Independent",
+      "name": "Stage 11 - 159 on Gullwing baseplates",
+      "axle_width_value": 8.75,
+      "axle_width_unit": "in",
+      "hanger_width_value": 156.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 38,
+      "manufacturer": "Independent",
+      "name": "Stage 11 - 159 redrilled baseplate",
+      "axle_width_value": 8.75,
+      "axle_width_unit": "in",
+      "hanger_width_value": 156.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 39,
+      "manufacturer": "Independent",
+      "name": "Stage 11 - 159 with bones bushings",
+      "axle_width_value": 8.75,
+      "axle_width_unit": "in",
+      "hanger_width_value": 156.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 40,
+      "manufacturer": "Independent",
+      "name": "Stage 11 - 169",
+      "axle_width_value": 9.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 166.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 41,
+      "manufacturer": "Independent",
+      "name": "Stage 11 - 169 Forged",
+      "axle_width_value": 9.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 166.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 42,
+      "manufacturer": "Independent",
+      "name": "Stage 11 - 169 Titanium Forged",
+      "axle_width_value": 9.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 166.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 43,
+      "manufacturer": "Independent",
+      "name": "Stage 11 - 215",
+      "axle_width_value": 10.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 187.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 44,
+      "manufacturer": "Independent",
+      "name": "Stage 9 - 149 Stage X  Forged Hollows",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 149.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 45,
+      "manufacturer": "Independent",
+      "name": "Stage 9 - 169 Silver 4 hole baseplate",
+      "axle_width_value": 8.9,
+      "axle_width_unit": "in",
+      "hanger_width_value": 160.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 46,
+      "manufacturer": "Independent",
+      "name": "Stage 9 - New 129 Stage X Low",
+      "axle_width_value": 7.75,
+      "axle_width_unit": "in",
+      "hanger_width_value": 127.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 47,
+      "manufacturer": "Krux",
+      "name": "Mahollow Low 4.0 (5.35)",
+      "axle_width_value": 8.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 136.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 48,
+      "manufacturer": "Mini Logo",
+      "name": "Raw Polished 8.0",
+      "axle_width_value": 8.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 136.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 49,
+      "manufacturer": "Mini Logo",
+      "name": "Raw Polished 8.75",
+      "axle_width_value": 8.75,
+      "axle_width_unit": "in",
+      "hanger_width_value": 156.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 50,
+      "manufacturer": "Mini Logo",
+      "name": "Silver 8.38",
+      "axle_width_value": 8.375,
+      "axle_width_unit": "in",
+      "hanger_width_value": 146.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 51,
+      "manufacturer": "Newton",
+      "name": "180mm",
+      "axle_width_value": 10.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 180.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 52,
+      "manufacturer": "Newton",
+      "name": "180mm flipped hanger",
+      "axle_width_value": 10.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 180.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 53,
+      "manufacturer": "Orion",
+      "name": "Superior 150",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 150.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 54,
+      "manufacturer": "Paris",
+      "name": "150 43 degree baseplate",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 150.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 55,
+      "manufacturer": "Paris",
+      "name": "150 43 degree baseplate flipped axle",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 150.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 56,
+      "manufacturer": "Paris",
+      "name": "150 50 degree baseplate",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 150.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 57,
+      "manufacturer": "Paris",
+      "name": "150 50 degree baseplate flipped axle",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 150.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 58,
+      "manufacturer": "Paris",
+      "name": "Street Truck 169",
+      "axle_width_value": 9.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 169.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 59,
+      "manufacturer": "Royal",
+      "name": "5.5",
+      "axle_width_value": 8.25,
+      "axle_width_unit": "in",
+      "hanger_width_value": 150.5,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 60,
+      "manufacturer": "Royal",
+      "name": "5.25 Low",
+      "axle_width_value": 8.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 137.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 61,
+      "manufacturer": "Silver",
+      "name": "M Class 8.25",
+      "axle_width_value": 8.25,
+      "axle_width_unit": "in",
+      "hanger_width_value": 143.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 62,
+      "manufacturer": "Surf Rodz",
+      "name": "TKP 159",
+      "axle_width_value": 8.75,
+      "axle_width_unit": "in",
+      "hanger_width_value": 159.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 63,
+      "manufacturer": "Surf Rodz",
+      "name": "TKP 177",
+      "axle_width_value": 9.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 177.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 64,
+      "manufacturer": "Surf Rodz",
+      "name": "TKP Grind 159 with 2.25\" kingpin",
+      "axle_width_value": 8.75,
+      "axle_width_unit": "in",
+      "hanger_width_value": 159.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 65,
+      "manufacturer": "Surf Rodz",
+      "name": "TKP Hex 159 with 2.5\"kingpin",
+      "axle_width_value": 8.75,
+      "axle_width_unit": "in",
+      "hanger_width_value": 159.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 66,
+      "manufacturer": "Tensor",
+      "name": "R2 5.75 low black magnesium",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 145.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 67,
+      "manufacturer": "Tensor",
+      "name": "Response 5.25 Mid magnesium",
+      "axle_width_value": 8.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 133.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 68,
+      "manufacturer": "Tensor",
+      "name": "Ten 5.75 low",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 146.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 69,
+      "manufacturer": "Tensor",
+      "name": "Ten 5.75 low 2nd measurement",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 146.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 70,
+      "manufacturer": "Tensor",
+      "name": "Ten 5.75 low with tall barrel bottom bushings",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 146.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 71,
+      "manufacturer": "Tensor",
+      "name": "Ten 5.75 Mid",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 146.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 72,
+      "manufacturer": "Tensor",
+      "name": "Ten 6.0 mid",
+      "axle_width_value": 8.75,
+      "axle_width_unit": "in",
+      "hanger_width_value": 152.4,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 73,
+      "manufacturer": "Theeve",
+      "name": "CSX 5.0",
+      "axle_width_value": 7.63,
+      "axle_width_unit": "in",
+      "hanger_width_value": 126.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 74,
+      "manufacturer": "Theeve",
+      "name": "CSX 5.25",
+      "axle_width_value": 7.91,
+      "axle_width_unit": "in",
+      "hanger_width_value": 133.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 75,
+      "manufacturer": "Theeve",
+      "name": "CSX 5.5",
+      "axle_width_value": 8.18,
+      "axle_width_unit": "in",
+      "hanger_width_value": 140.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 76,
+      "manufacturer": "Theeve",
+      "name": "CSX 5.85",
+      "axle_width_value": 8.54,
+      "axle_width_unit": "in",
+      "hanger_width_value": 149.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 77,
+      "manufacturer": "Theeve",
+      "name": "TiAX 5.0",
+      "axle_width_value": 7.63,
+      "axle_width_unit": "in",
+      "hanger_width_value": 126.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 78,
+      "manufacturer": "Theeve",
+      "name": "TiAX 5.25",
+      "axle_width_value": 7.91,
+      "axle_width_unit": "in",
+      "hanger_width_value": 133.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 79,
+      "manufacturer": "Theeve",
+      "name": "TiAX 5.25",
+      "axle_width_value": 8.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 133.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 80,
+      "manufacturer": "Theeve",
+      "name": "TiAX 5.25 lo",
+      "axle_width_value": 8.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 133.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 81,
+      "manufacturer": "Theeve",
+      "name": "TiAX 5.5",
+      "axle_width_value": 8.18,
+      "axle_width_unit": "in",
+      "hanger_width_value": 140.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 82,
+      "manufacturer": "Theeve",
+      "name": "TiAX 5.5",
+      "axle_width_value": 8.25,
+      "axle_width_unit": "in",
+      "hanger_width_value": 140.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 83,
+      "manufacturer": "Theeve",
+      "name": "TiAX 5.85 V1",
+      "axle_width_value": 8.54,
+      "axle_width_unit": "in",
+      "hanger_width_value": 149.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 84,
+      "manufacturer": "Theeve",
+      "name": "TiAX 5.85 V2",
+      "axle_width_value": 8.6,
+      "axle_width_unit": "in",
+      "hanger_width_value": 149.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 85,
+      "manufacturer": "Theeve",
+      "name": "TiAX 6.5 V3",
+      "axle_width_value": 9.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 162.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 86,
+      "manufacturer": "Theeve",
+      "name": "TiH 5.0",
+      "axle_width_value": 7.63,
+      "axle_width_unit": "in",
+      "hanger_width_value": 126.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 87,
+      "manufacturer": "Theeve",
+      "name": "TiH 5.25",
+      "axle_width_value": 7.91,
+      "axle_width_unit": "in",
+      "hanger_width_value": 133.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 88,
+      "manufacturer": "Theeve",
+      "name": "TiH 5.5",
+      "axle_width_value": 8.18,
+      "axle_width_unit": "in",
+      "hanger_width_value": 140.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 89,
+      "manufacturer": "Theeve",
+      "name": "TiH 5.5",
+      "axle_width_value": 8.25,
+      "axle_width_unit": "in",
+      "hanger_width_value": 141.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 90,
+      "manufacturer": "Theeve",
+      "name": "TiH 5.5 with TiKing hollow kingpin",
+      "axle_width_value": 8.25,
+      "axle_width_unit": "in",
+      "hanger_width_value": 141.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 91,
+      "manufacturer": "Theeve",
+      "name": "TiH 5.85",
+      "axle_width_value": 8.54,
+      "axle_width_unit": "in",
+      "hanger_width_value": 149.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 92,
+      "manufacturer": "Theeve",
+      "name": "TiH 5.85",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 150.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 93,
+      "manufacturer": "Theeve",
+      "name": "TiH 5.85 with Titanium Hollow Kingpins",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 150.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 94,
+      "manufacturer": "Theeve",
+      "name": "TiKING 6.5 V3",
+      "axle_width_value": 9.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 162.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 95,
+      "manufacturer": "Thilver",
+      "name": "Theeve/Silver hybrid 5.85",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 150.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 96,
+      "manufacturer": "Thunder",
+      "name": "149 Hollow Lights",
+      "axle_width_value": 8.25,
+      "axle_width_unit": "in",
+      "hanger_width_value": 149.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 97,
+      "manufacturer": "Thunder",
+      "name": "149 II (2014 Drop 2)",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 149.225,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 98,
+      "manufacturer": "Thunder",
+      "name": "149 Light",
+      "axle_width_value": 8.25,
+      "axle_width_unit": "in",
+      "hanger_width_value": 149.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 99,
+      "manufacturer": "Thunder",
+      "name": "149 standard",
+      "axle_width_value": 8.25,
+      "axle_width_unit": "in",
+      "hanger_width_value": 149.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 100,
+      "manufacturer": "Thunder",
+      "name": "151 Light",
+      "axle_width_value": 8.6,
+      "axle_width_unit": "in",
+      "hanger_width_value": 155.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 101,
+      "manufacturer": "Thunder",
+      "name": "151 standard",
+      "axle_width_value": 8.6,
+      "axle_width_unit": "in",
+      "hanger_width_value": 155.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 102,
+      "manufacturer": "Thunder",
+      "name": "Titanium Lights 149",
+      "axle_width_value": 8.25,
+      "axle_width_unit": "in",
+      "hanger_width_value": 149.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 103,
+      "manufacturer": "Tork Trux",
+      "name": "Act 2 5.5",
+      "axle_width_value": 8.25,
+      "axle_width_unit": "in",
+      "hanger_width_value": 139.6,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 104,
+      "manufacturer": "Tracker",
+      "name": "Dart 149",
+      "axle_width_value": 8.5,
+      "axle_width_unit": "in",
+      "hanger_width_value": 150.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 105,
+      "manufacturer": "Tracker",
+      "name": "Dart 161",
+      "axle_width_value": 9.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 160.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 106,
+      "manufacturer": "Venture",
+      "name": "5.2 High",
+      "axle_width_value": 8.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 137.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 107,
+      "manufacturer": "Venture",
+      "name": "5.2 Lo",
+      "axle_width_value": 8.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 136.5,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 108,
+      "manufacturer": "Venture",
+      "name": "5.8 High",
+      "axle_width_value": 8.25,
+      "axle_width_unit": "in",
+      "hanger_width_value": 149.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 109,
+      "manufacturer": "Venture",
+      "name": "5.8 Light",
+      "axle_width_value": 8.25,
+      "axle_width_unit": "in",
+      "hanger_width_value": 150.0,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 110,
+      "manufacturer": "Venture V5",
+      "name": "5.2 lo",
+      "axle_width_value": 8.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 136.5,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 111,
+      "manufacturer": "Venture V5",
+      "name": "5.2 lo with Bones Bushings and flat top washer",
+      "axle_width_value": 8.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 136.5,
+      "hanger_width_unit": "mm"
+  },
+  {
+      "id": 112,
+      "manufacturer": "X-Caliber",
+      "name": "9\" TKP",
+      "axle_width_value": 9.0,
+      "axle_width_unit": "in",
+      "hanger_width_value": 161.0,
+      "hanger_width_unit": "mm"
   }
 ]
