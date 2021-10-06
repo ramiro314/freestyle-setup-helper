@@ -1,6 +1,8 @@
 import React from "react";
-import {Form, Select, Space} from 'antd';
+import {Select} from 'antd';
 import MeasurementInput from "./MeasurementInput";
+import Section from "./Section";
+import SubSection from "./SubSection";
 
 const Deck = ({options, deck, setDeck = f => f}) => {
 
@@ -8,25 +10,22 @@ const Deck = ({options, deck, setDeck = f => f}) => {
         setDeck(options[item]);
     };
 
-    const customImput = (
-        <Form.Item label="Deck Width">
+    const customInput = (
+        <SubSection title="Deck Width">
             <MeasurementInput defaultValue={7.6}/>
-        </Form.Item>
-    )
+        </SubSection>
+    );
 
-    return (<div className="Deck">
-        <Space direction="vertical">
-            <Form.Item label="Deck">
-                <Select
-                    value={deck.value}
-                    options={options}
-                    onSelect={onchangeSelect}
-                    style={{ width: 250 }}
-                />
-            </Form.Item>
-            {deck.value === 0 && customImput}
-        </Space>
-    </div>);
+    return (
+        <Section title="Deck">
+            <Select
+                value={deck.value}
+                options={options}
+                onSelect={onchangeSelect}
+                style={{ width: 250 }}
+            />
+            {deck.value === 0 && customInput}
+        </Section>);
 };
 
 export default Deck;

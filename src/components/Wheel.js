@@ -1,7 +1,9 @@
 import React, {useState} from "react";
-import {Form, Select, Space} from 'antd';
+import {Select} from 'antd';
 import MeasurementInput from "./MeasurementInput";
 import {MILLIMETERS} from "../helpers/measurements";
+import Section from "./Section";
+import SubSection from "./SubSection";
 
 const Wheel = ({options, wheel, setWheel = f => f}) => {
 
@@ -25,29 +27,26 @@ const Wheel = ({options, wheel, setWheel = f => f}) => {
         setWheel(newValue);
     }
 
-    const customImput = (
-        <Form.Item label="Wheel Width">
+    const customInput = (
+        <SubSection title="Deck Width">
             <MeasurementInput
                 defaultValue={customWheel.width_value}
                 defaultUnit={customWheel.width_unit}
                 onChange={onChangeCustom}
             />
-        </Form.Item>
+        </SubSection>
     )
 
-    return (<div className="Wheel">
-        <Space direction="vertical">
-            <Form.Item label="Wheel">
-                <Select
-                    value={wheel.value}
-                    options={options}
-                    onSelect={onChangeSelect}
-                    style={{ width: 250 }}
-                />
-            </Form.Item>
-            {wheel.value === 0 && customImput}
-        </Space>
-    </div>);
+    return (
+        <Section title="Wheel">
+            <Select
+                value={wheel.value}
+                options={options}
+                onSelect={onChangeSelect}
+                style={{ width: 250 }}
+            />
+            {wheel.value === 0 && customInput}
+        </Section>);
 };
 
 export default Wheel;

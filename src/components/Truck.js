@@ -1,7 +1,9 @@
 import React, {useState} from "react";
-import {Form, Select, Space} from 'antd';
+import {Select} from 'antd';
 import MeasurementInput from "./MeasurementInput";
 import {INCHES} from "../helpers/measurements";
+import Section from "./Section";
+import SubSection from "./SubSection";
 
 const Truck = ({options, truck, setTruck = f => f}) => {
 
@@ -33,38 +35,35 @@ const Truck = ({options, truck, setTruck = f => f}) => {
         setTruck(newValue);
     }
 
-    const customImput = (
+    const customInput = (
         <>
-            <Form.Item label="Axle Width">
+            <SubSection title="Axle Width">
                 <MeasurementInput
                     defaultValue={customTruck.axle_width_value}
                     defaultUnit={customTruck.axle_width_unit}
                     onChange={onChangeCustomAxle}
                 />
-            </Form.Item>
-            <Form.Item label="Hanger Width">
+            </SubSection>
+            <SubSection title="Hanger Width">
                 <MeasurementInput
                     defaultValue={customTruck.hanger_width_value}
                     defaultUnit={customTruck.hanger_width_unit}
                     onChange={onChangeCustomHanger}
                 />
-            </Form.Item>
+            </SubSection>
         </>
     )
 
-    return (<div className="Truck">
-        <Space direction="vertical">
-            <Form.Item label="Truck">
-                <Select
-                    value={truck.value}
-                    options={options}
-                    onSelect={onChangeSelect}
-                    style={{ width: 250 }}
-                />
-            </Form.Item>
-            {truck.value === 0 && customImput}
-        </Space>
-    </div>);
+    return (
+        <Section title="Truck">
+            <Select
+                value={truck.value}
+                options={options}
+                onSelect={onChangeSelect}
+                style={{ width: 250 }}
+            />
+            {truck.value === 0 && customInput}
+        </Section>);
 };
 
 export default Truck;

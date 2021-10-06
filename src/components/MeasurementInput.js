@@ -4,7 +4,15 @@ import {INCHES, MILLIMETERS} from "../helpers/measurements";
 
 const { Option } = Select;
 
-const MeasurementInput = ({ defaultValue = 0, defaultUnit = INCHES, onChange = f => f }) => {
+const step = (unit) => {
+  return unit === INCHES ? 0.1 : 1;
+};
+
+const allowNegativeValue = (negativeValue) => {
+  return negativeValue ? Number.MIN_SAFE_INTEGER : 0;
+};
+
+const MeasurementInput = ({ defaultValue = 0, defaultUnit = INCHES, negativeValue = false, onChange = f => f }) => {
 
     const [value, setValue] = useState(defaultValue);
     const [unit, setUnit] = useState(defaultUnit);
@@ -25,7 +33,15 @@ const MeasurementInput = ({ defaultValue = 0, defaultUnit = INCHES, onChange = f
             <Option value={MILLIMETERS}>mm</Option>
         </Select>
     );
-    return (<InputNumber addonAfter={selectAfter(unit)} defaultValue={value} onChange={onChangeValue} />);
+    return (
+        <InputNumber
+            className="MeasurementInput"
+            addonAfter={selectAfter(unit)}
+            defaultValue={value}
+            step={step(unit)}
+            min={allowNegativeValue(negativeValue)}
+            onChange={onChangeValue}
+        />);
 };
 
 export default MeasurementInput;

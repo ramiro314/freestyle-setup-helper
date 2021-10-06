@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Typography, Space } from 'antd';
+import {Typography, Layout, Space} from 'antd';
 import './App.css';
 import Deck from "./Deck";
 import Truck from "./Truck";
@@ -11,6 +11,7 @@ import trucks from "../data/trucks.json";
 import wheels from "../data/wheels.json";
 import Notes from "./Notes";
 
+const { Header, Content, Footer } = Layout;
 const { Title } = Typography;
 
 const App = () => {
@@ -45,14 +46,21 @@ const App = () => {
     const [wheel, setWheel] = useState(wheelOptions[1]);
 
     return (
-        <Space direction="vertical">
-            <Title>Freestyle Truck Calculator</Title>
-            <Notes />
-            <Deck options={deckOptions} deck={deck} setDeck={setDeck}/>
-            <Truck options={truckOptions} truck={truck} setTruck={setTruck}/>
-            <Wheel options={wheelOptions} wheel={wheel} setWheel={setWheel}/>
-            <Result deck={deck} truck={truck} wheel={wheel}/>
-        </Space>
+        <Layout className="layout">
+            <Header>
+                <Title style={{ color: 'white' }}>Freestyle Setup Helper</Title>
+            </Header>
+            <Content style={{ padding: '0 50px' }}>
+                <Space direction="vertical">
+                    <Notes />
+                    <Deck options={deckOptions} deck={deck} setDeck={setDeck}/>
+                    <Truck options={truckOptions} truck={truck} setTruck={setTruck}/>
+                    <Wheel options={wheelOptions} wheel={wheel} setWheel={setWheel}/>
+                    <Result deck={deck} truck={truck} wheel={wheel}/>
+                </Space>
+            </Content>
+            <Footer style={{ textAlign: 'center' }}>Designed and developed by the <a href="https://discord.gg/6SB27XCc">Waltz Discord community</a>.</Footer>
+        </Layout>
     )
 };
 
