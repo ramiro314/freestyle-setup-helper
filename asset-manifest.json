@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/freestyle-setup-helper/static/css/main.b12f80a9.chunk.css",
-    "main.js": "/freestyle-setup-helper/static/js/main.343db244.chunk.js",
-    "main.js.map": "/freestyle-setup-helper/static/js/main.343db244.chunk.js.map",
-    "runtime-main.js": "/freestyle-setup-helper/static/js/runtime-main.7db84dad.js",
-    "runtime-main.js.map": "/freestyle-setup-helper/static/js/runtime-main.7db84dad.js.map",
+    "main.css": "/freestyle-setup-helper/static/css/main.0a179250.chunk.css",
+    "main.js": "/freestyle-setup-helper/static/js/main.95508b6f.chunk.js",
+    "main.js.map": "/freestyle-setup-helper/static/js/main.95508b6f.chunk.js.map",
+    "runtime-main.js": "/freestyle-setup-helper/static/js/runtime-main.2cd2df58.js",
+    "runtime-main.js.map": "/freestyle-setup-helper/static/js/runtime-main.2cd2df58.js.map",
     "static/css/2.c114756b.chunk.css": "/freestyle-setup-helper/static/css/2.c114756b.chunk.css",
-    "static/js/2.0d37cab6.chunk.js": "/freestyle-setup-helper/static/js/2.0d37cab6.chunk.js",
-    "static/js/2.0d37cab6.chunk.js.map": "/freestyle-setup-helper/static/js/2.0d37cab6.chunk.js.map",
-    "static/js/3.95b9b5b6.chunk.js": "/freestyle-setup-helper/static/js/3.95b9b5b6.chunk.js",
-    "static/js/3.95b9b5b6.chunk.js.map": "/freestyle-setup-helper/static/js/3.95b9b5b6.chunk.js.map",
+    "static/js/2.a86cfe64.chunk.js": "/freestyle-setup-helper/static/js/2.a86cfe64.chunk.js",
+    "static/js/2.a86cfe64.chunk.js.map": "/freestyle-setup-helper/static/js/2.a86cfe64.chunk.js.map",
+    "static/js/3.1a68a0f0.chunk.js": "/freestyle-setup-helper/static/js/3.1a68a0f0.chunk.js",
+    "static/js/3.1a68a0f0.chunk.js.map": "/freestyle-setup-helper/static/js/3.1a68a0f0.chunk.js.map",
     "index.html": "/freestyle-setup-helper/index.html",
     "static/css/2.c114756b.chunk.css.map": "/freestyle-setup-helper/static/css/2.c114756b.chunk.css.map",
-    "static/css/main.b12f80a9.chunk.css.map": "/freestyle-setup-helper/static/css/main.b12f80a9.chunk.css.map",
-    "static/js/2.0d37cab6.chunk.js.LICENSE.txt": "/freestyle-setup-helper/static/js/2.0d37cab6.chunk.js.LICENSE.txt"
+    "static/css/main.0a179250.chunk.css.map": "/freestyle-setup-helper/static/css/main.0a179250.chunk.css.map",
+    "static/js/2.a86cfe64.chunk.js.LICENSE.txt": "/freestyle-setup-helper/static/js/2.a86cfe64.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7db84dad.js",
+    "static/js/runtime-main.2cd2df58.js",
     "static/css/2.c114756b.chunk.css",
-    "static/js/2.0d37cab6.chunk.js",
-    "static/css/main.b12f80a9.chunk.css",
-    "static/js/main.343db244.chunk.js"
+    "static/js/2.a86cfe64.chunk.js",
+    "static/css/main.0a179250.chunk.css",
+    "static/js/main.95508b6f.chunk.js"
   ]
 }
