@@ -72,8 +72,10 @@ const App = () => {
                     <Result deck={deck} truck={truck} wheel={wheel} washer={washer}/>
                 </Space>
             </Content>
-            <Divider/>
-            <Footer style={{ textAlign: 'center' }}>Designed and developed by the <a href="https://discord.gg/6SB27XCc">Waltz Discord community</a>.</Footer>
+            <Footer style={{ textAlign: 'center' }}>
+                <Divider/>
+                Designed and developed by the <a href="https://discord.gg/6SB27XCc">Waltz Discord community</a>.
+            </Footer>
         </Layout>
     )
 };

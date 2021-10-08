@@ -16,9 +16,9 @@ const calculateHangerWheelsInMetric = (truck, wheel, washer) => {
 };
 
 const Deck = ({deck, truck, wheel, washer}) => (
-        <>
-            <Text strong>The complete width of your trucks and wheels will be {calculateHangerWheelsInImperial(truck, wheel, washer).toFixed(3)}"</Text>
-        </>
+    <Text strong>
+        The complete width of your trucks and wheels will be {calculateHangerWheelsInImperial(truck, wheel, washer).toFixed(3)}"
+    </Text>
 );
 
 export default Deck;

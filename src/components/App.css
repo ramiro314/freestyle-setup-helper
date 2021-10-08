@@ -66,3 +66,7 @@
 .MeasurementInput .ant-select-selector {
   width: 66px !important;
 }
+
+#root, .ant-layout {
+  height: 100vh;
+}
