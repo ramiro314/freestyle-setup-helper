@@ -1,15 +1,16 @@
 import React, {useState} from 'react';
-import {Typography, Layout, Space} from 'antd';
+import {Typography, Layout, Space, Divider} from 'antd';
 import './App.css';
 import Deck from "./Deck";
 import Truck from "./Truck";
 import Wheel from "./Wheel";
 import Result from "./Result";
-import {unitSymbol} from "../helpers/measurements";
+import {MILLIMETERS, unitSymbol} from "../helpers/measurements";
 import decks from "../data/decks.json";
 import trucks from "../data/trucks.json";
 import wheels from "../data/wheels.json";
 import Notes from "./Notes";
+import Washer from "./Washer";
 
 const { Header, Content, Footer } = Layout;
 const { Title } = Typography;
@@ -45,20 +46,33 @@ const App = () => {
     ];
     const [wheel, setWheel] = useState(wheelOptions[1]);
 
+    const [washer, setWasher] = useState({
+        amount: 1,
+        width_value: 1,
+        width_unit: MILLIMETERS,
+    });
+
     return (
         <Layout className="layout">
             <Header>
                 <Title style={{ color: 'white' }}>Freestyle Setup Helper</Title>
             </Header>
-            <Content style={{ padding: '0 50px' }}>
+            <Content style={{ padding: '0 50px', alignSelf: 'center' }}>
                 <Space direction="vertical">
                     <Notes />
-                    <Deck options={deckOptions} deck={deck} setDeck={setDeck}/>
+                    {/*<Divider>Deck</Divider>*/}
+                    {/*<Deck options={deckOptions} deck={deck} setDeck={setDeck}/>*/}
+                    <Divider>Trucks</Divider>
                     <Truck options={truckOptions} truck={truck} setTruck={setTruck}/>
+                    <Divider>Wheels</Divider>
                     <Wheel options={wheelOptions} wheel={wheel} setWheel={setWheel}/>
-                    <Result deck={deck} truck={truck} wheel={wheel}/>
+                    <Divider>Washers</Divider>
+                    <Washer washer={washer} setWasher={setWasher}/>
+                    <Divider>Result</Divider>
+                    <Result deck={deck} truck={truck} wheel={wheel} washer={washer}/>
                 </Space>
             </Content>
+            <Divider/>
             <Footer style={{ textAlign: 'center' }}>Designed and developed by the <a href="https://discord.gg/6SB27XCc">Waltz Discord community</a>.</Footer>
         </Layout>
     )

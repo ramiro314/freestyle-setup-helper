@@ -22,7 +22,7 @@ const Deck = ({options, deck, setDeck = f => f}) => {
                 value={deck.value}
                 options={options}
                 onSelect={onchangeSelect}
-                style={{ width: 250 }}
+                style={{ width: 270 }}
             />
             {deck.value === 0 && customInput}
         </Section>);

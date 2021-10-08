@@ -4,9 +4,8 @@ import {Collapse, List} from 'antd';
 const { Panel } = Collapse;
 
 const data = [
-    'VERY Alpha version, it\'s full of bugs.',
-    'I plan to add washers (including custom ones)',
-    'Right now Deck is not doing anything. Still trying to figure out the best way to use the information.',
+    'VERY Alpha version.',
+    'This currently only works with completely offset wheels. I\'m working on adding supoport for other kinds of wheels',
     'I would like some kind of diagram to help with visualisation.',
 ];
 

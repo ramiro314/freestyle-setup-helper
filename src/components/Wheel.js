@@ -28,7 +28,7 @@ const Wheel = ({options, wheel, setWheel = f => f}) => {
     }
 
     const customInput = (
-        <SubSection title="Deck Width">
+        <SubSection title="Width">
             <MeasurementInput
                 defaultValue={customWheel.width_value}
                 defaultUnit={customWheel.width_unit}
@@ -43,7 +43,7 @@ const Wheel = ({options, wheel, setWheel = f => f}) => {
                 value={wheel.value}
                 options={options}
                 onSelect={onChangeSelect}
-                style={{ width: 250 }}
+                style={{ width: 270 }}
             />
             {wheel.value === 0 && customInput}
         </Section>);

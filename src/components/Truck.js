@@ -37,13 +37,13 @@ const Truck = ({options, truck, setTruck = f => f}) => {
 
     const customInput = (
         <>
-            <SubSection title="Axle Width">
-                <MeasurementInput
-                    defaultValue={customTruck.axle_width_value}
-                    defaultUnit={customTruck.axle_width_unit}
-                    onChange={onChangeCustomAxle}
-                />
-            </SubSection>
+            {/*<SubSection title="Axle Width">*/}
+            {/*    <MeasurementInput*/}
+            {/*        defaultValue={customTruck.axle_width_value}*/}
+            {/*        defaultUnit={customTruck.axle_width_unit}*/}
+            {/*        onChange={onChangeCustomAxle}*/}
+            {/*    />*/}
+            {/*</SubSection>*/}
             <SubSection title="Hanger Width">
                 <MeasurementInput
                     defaultValue={customTruck.hanger_width_value}
@@ -60,7 +60,7 @@ const Truck = ({options, truck, setTruck = f => f}) => {
                 value={truck.value}
                 options={options}
                 onSelect={onChangeSelect}
-                style={{ width: 250 }}
+                style={{ width: 270 }}
             />
             {truck.value === 0 && customInput}
         </Section>);
